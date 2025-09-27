@@ -1,0 +1,12 @@
+This variant uses Tailwind CLI to generate src/tw.css, bypassing PostCSS loader issues.
+
+Usage:
+  1) Open TWO terminals in this frontend folder.
+  2) In Terminal A run:
+       npm run tw:dev
+     (This creates/updates src/tw.css)
+  3) In Terminal B run:
+       npm run dev
+  4) Hard refresh the browser (Ctrl+Shift+R).
+
+Your API endpoints and any /src/lib/api.js code are untouched.

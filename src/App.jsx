@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import NavBar from './components/NavBar.jsx';
 import Hero3D from './components/Hero3D.jsx';
 import About from './components/About.jsx';
@@ -51,3 +52,54 @@ export default function App() {
     </div>
   );
 }
+=======
+
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import './App.css'
+import Navbar from './components/Navbar'
+import Home from './components/Home'
+import Pastes from './components/Pastes'
+import ViewPaste from './components/ViewPaste'
+
+function App() {
+
+
+  const router = createBrowserRouter(
+    [
+      {path:"/",
+        element: <>
+        <Navbar/> 
+        <Home/>
+        </>
+      },
+      {
+        path:"/pastes",
+        element:<>
+        <Navbar/>
+        <Pastes/>
+        </>
+          
+       
+      },
+      {
+
+        path:"/pastes/:id",
+        element: <>
+          <Navbar/>
+          <ViewPaste/>
+        </>
+      }
+    ]
+  )
+
+  return (
+   <div>
+    
+< RouterProvider router={router}/>
+
+   </div>
+  )
+}
+
+export default App
+>>>>>>> 9fc7285bb19f73ba22a69e77e3be173836693507

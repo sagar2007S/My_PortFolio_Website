@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 export default function Projects() {
   const projects = [
     { title: "WhatsGram", desc: "MERN, Socket.IO, Cloudinary, Tailwind", link: "https://whatsgram-ktog.onrender.com/" },
-    { title: "SmartScop News", desc: "React, Redux, REST APIs", link: "https://github.com/sagar2007S/SmartScoop" },
+    { title: "SmartScop News", desc: "HTML, CSS, Javascript, Api Handled", link: "https://github.com/sagar2007S/SmartScoop" },
     { title: "IMDB Clone", desc: "Movie data fetcher from OMDb API", link: "https://sagars2007.github.io/IMDB_CLONE/" },
       { title: "Pastebin", desc: "React, Router, Tailwind, Localstorage", link: "https://pastebin-jade.vercel.app/" },
   ];

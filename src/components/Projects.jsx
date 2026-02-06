@@ -5,7 +5,7 @@ export default function Projects() {
     { title: "WhatsGram", desc: "MERN, Socket.IO, Cloudinary, Tailwind", link: "https://whatsgram-ktog.onrender.com/" },
     { title: "SmartScop News", desc: "HTML, CSS, Javascript, Api Handled", link: "https://github.com/sagar2007S/SmartScoop" },
     { title: "IMDB Clone", desc: "Movie data fetcher from OMDb API", link: "https://sagars2007.github.io/IMDB_CLONE/" },
-      { title: "Pastebin", desc: "React, Router, Tailwind, Localstorage", link: "https://pastebin-jade.vercel.app/" },
+      { title: "Pastebin", desc: "React, Router, Tailwind, MongoDB, Express.js, Redux Toolkit", link: "https://pastebin-frontend-tan.vercel.app/" },
   ];
 
   return (
